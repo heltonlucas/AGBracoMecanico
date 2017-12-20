@@ -73,7 +73,7 @@ def erro_desloc_angular(AngIni, AngFin):
 
     return erro
 
-''' Avaliar o erro de pos da garra, busca dimuir o Ea e Ep'''
+''' Avaliar o erro de posicao da garra, busca dimuir o Ea e Ep'''
 def fitness(point_i, point_f, AngIni, AngFin):
 
     value = 1/((W1*erro_posicionamento(point_i, point_f))
